@@ -1,0 +1,53 @@
+# Temporary and Log Files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# PowerShell
+*.ps1xml
+*.psc1
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SSH Keys and Credentials (Security - DO NOT COMMIT)
+*.pem
+*.key
+id_rsa*
+*.ppk
+.ssh/
+credentials.json
+azureprofile.json
+
+# Environment files
+.env
+.env.local
+*.local
+
+# Deployment artifacts
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Personal notes and scratch files
+.notes/
+scratch.md
+temp/
+debug/
+
+# Bicep build output
+bin/
+obj/
+
+# Ignore specific files that are not needed in the repository
+NEWSLETTER_ARTICLE.md

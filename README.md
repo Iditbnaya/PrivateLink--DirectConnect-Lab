@@ -5,7 +5,7 @@
 **Private Link Direct Connect** is an Azure networking feature in *preview* that revolutionizes how service providers expose resources to consumers securely and privately. It removes the need for intermediate infrastructure (load balancers) by creating a **direct connection from consumer endpoints to provider network interfaces**.
 
 **Official Documentation:**
-https://learn.microsoft.com/en-us/azure/private-link/configure-private-link-service-direct-connect?tabs=powershell%2Cpowershell-pe%2Cverify-powershell%2Ccleanup-powershell#create-a-private-endpoint-to-test-connectivity
+https://learn.microsoft.com/en-us/azure/private-link/configure-private-link-service-direct-connect
 
 
 ### The Problem It Solves
